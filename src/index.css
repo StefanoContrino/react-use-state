@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    background-color: #F8F9FA;
+    padding: 0.5rem 0;
+    padding-left: 1rem;
+}
+
+.btn-container {
+    display: flex;
+    padding: 2rem 0;
+    padding-left: 6rem;
+}
+
+#btn {
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #0D6EFD;
+    border: 2px #0D6EFD solid;
+    color: white;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+#btn:hover {
+    background-color: #FFC107;
+    border: 2px #FFC107 solid;
+    color: black;
+}
+
+.card {
+    border: 1px solid black;
+    width: 50%;
+    margin-left: 6rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+}
